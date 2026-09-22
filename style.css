@@ -1,0 +1,84 @@
+* {
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxGYJwbeldFzDPgqlZ89_ObG0IG3WR6mfBMnHu_wSxw&s=10");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    width: 80%;
+    height: 650px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+footer {
+    margin-top: auto;
+}
+
+.questions {
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgba(115, 0, 255, 0.85);
+}
+
+.answers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+#easy {
+    background-color: green;
+}
+
+#easy:hover {
+    background-color: lightgreen;
+}
+
+#medium {
+    background-color: yellow;
+}
+
+#medium:hover {
+    background-color: lightyellow;
+}
+
+#hard {
+    background-color: red;
+}
+
+#hard:hover {
+    background-color: lightcoral;
+}
+
+header h1 {
+    background-color: white;
+    border: 20px solid white;
+}
+
+footer h6 {
+    background-color: white;
+    border: 15px solid white;
+}
+
+.score {
+    background-color: rgba(237, 147, 1, 0.85);
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 50px;
+}
