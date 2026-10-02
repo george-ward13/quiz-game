@@ -5,19 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quiz Game</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div class="main-container">
             <div class="difficulty">
                 <h2>Difficulty Level</h2>
-                <button id="easy">Easy</button>
-                <button id="medium">Medium</button>
-                <button id="hard">Hard</button>
+                <button id="easy" class="difficulty-button">Easy</button>
+                <button id="medium" class="difficulty-button">Medium</button>
+                <button id="hard" class="difficulty-button">Hard</button>
             </div>
             <div class="main">
                 <div class="info">
-                    <p class="question-num-info">Question <span class="question-num">1</span> out of <span class="num-of-questions">5</span></p>
-                    <p id="score-info">Score: <span id="score-num-info ">0</span></p>
+                    <h2 class="score-info bold">Score: <span id="score-num-info">0</span></h2>
                 </div>
                 <hr>
                 <div class="questions-and-answers">

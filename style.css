@@ -64,7 +64,7 @@ footer {
 }
 
 #easy:hover {
-    background-color: lightgreen;
+    background-color: rgb(108, 218, 108);
 }
 
 #medium {
@@ -72,7 +72,7 @@ footer {
 }
 
 #medium:hover {
-    background-color: lightyellow;
+    background-color: rgb(255, 255, 178);
 }
 
 #hard {
@@ -96,11 +96,7 @@ footer h6 {
 .info {
     color: #f9800f;
     display: flex;
-    gap: 60%;
-}
-
-.question-num-info {
-    margin-left: 15px;
+    justify-content: center;
 }
 
 .answer {
@@ -129,4 +125,8 @@ footer h6 {
 
 hr {
     color: #ffffdd;
+}
+
+.bold {
+    font-weight: bold;
 }
