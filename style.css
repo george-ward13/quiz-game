@@ -3,10 +3,12 @@
     box-sizing: border-box;
 }
 
+
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxGYJwbeldFzDPgqlZ89_ObG0IG3WR6mfBMnHu_wSxw&s=10");
     background-size: cover;
@@ -18,7 +20,23 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
+}
+
+.start-screen-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: none;
+}
+
+.active {
+    display: flex;
 }
 
 .difficulty {
@@ -27,7 +45,6 @@ body{
     border-radius: 50px;
     width: 40%;
     height: 100px;
-    margin-top: 80px;
     color: #f9800f;
 }
 
@@ -40,6 +57,7 @@ body{
     border: 1px solid black;
     border-radius: 50px;
     background-color: #fffbe9e0;
+    margin-bottom: 100px;
 }
 
 footer {
@@ -51,12 +69,6 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 10px;                     
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 150px;
 }
 
 #easy {
@@ -129,4 +141,35 @@ hr {
 
 .bold {
     font-weight: bold;
+}
+
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffbe9e0;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.welcome-message {
+    color: #f9800f;
+    padding: 5px;
+}
+
+.start-screen-main h3 {
+    color: #f9800f;
+}
+
+#start-button {
+    background-color: #ffc157;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #d89f3b;
 }

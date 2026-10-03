@@ -6,6 +6,9 @@ const scoreNumber = document.querySelector('#score-num-info')
 const easyBtn = document.querySelector('#easy')
 const mediumBtn = document.querySelector('#medium')
 const hardBtn = document.querySelector('#hard')
+const mainContainer = document.querySelector('.main-container')
+const startScreenContainer = document.querySelector('.start-screen-container')
+const startBtn = document.querySelector('#start-button')
 
 let score = 0
 let correctResponse = 0
@@ -115,4 +118,9 @@ answerDivs.forEach(function(box) {
             alert("Incorrect! Try again.")
         }
     })
+})
+
+startBtn.addEventListener('click', function() {
+    mainContainer.classList.add('active')
+    startScreenContainer.classList.remove('active')
 })
